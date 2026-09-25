@@ -74,9 +74,10 @@ a {
 
 .header {
 
-    position: fixed;
+    position: sticky;
+    display: flex;
 
-    z-index: 20;
+    z-index: 50;
 
     top: 0;
     left: 0;
