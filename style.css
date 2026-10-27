@@ -73,21 +73,12 @@ a {
 /* ================= NAVBAR ================= */
 
 .header {
-
     position: sticky;
-    display: flex;
-
-    z-index: 50;
-
     top: 0;
-    left: 0;
-
+    z-index: 1000;
     width: 100%;
-
-    background: rgba(8,9,12,.72);
-
+    background: rgba(8, 9, 12, 0.72);
     backdrop-filter: blur(18px);
-
     border-bottom: 1px solid var(--line);
 }
 
